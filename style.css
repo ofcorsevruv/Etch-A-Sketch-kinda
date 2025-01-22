@@ -1,3 +1,23 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  height: 100vh; /* Optional: Full viewport height */
+  flex-wrap: wrap; /* Allow child boxes to wrap */
+  width: 704px; /* Set width for the 16x16 grid (16 boxes * 40px) */
+  height: 688px;
+}
+
+.box {
+  border: 2px solid black;
+  height: 40px; /* Adjust size to fit 16 boxes in the grid width */
+  width: 40px;
+}
+
+.box:hover {
+  background-color: aquamarine;
+}
